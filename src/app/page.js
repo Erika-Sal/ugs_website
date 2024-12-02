@@ -16,15 +16,15 @@ export default function Home() {
     <div className='sec2'>
       <h1>Does Tech and Race Intersect???</h1>
       <h3 >Technology and race significantly intersect in numerous concerning ways. Racism manifests throughout technology, from discriminatory
-        Google Image search results that perpetuate harmful stereotypes about "unprofessional hairstyles"
+        Google Image search results that perpetuate harmful stereotypes about &quot;unprofessional hairstyles&quot;
         to biased predictive policing algorithms that reinforce existing racial disparities in law enforcement.
         These issues arise both from profit-driven business
         models that prioritize engagement over fairness, and from the way technology often
         mirrors and amplifies existing societal racism. The problems extend to basic hardware design,
-        as demonstrated by the example of soap dispensers that don't recognize darker skin tones, and to
+        as demonstrated by the example of soap dispensers that do not recognize darker skin tones, and to
         social media platforms where content-curating algorithms can repeatedly expose users to harmful
         representational biases. Addressing these intersections requires interventions
-         at multiple levels, from diversifying tech workforces to potentially "sanitizing" datasets to better
+         at multiple levels, from diversifying tech workforces to potentially &quot;sanitizing&quot; datasets to better
          reflect the world we want to see rather than perpetuating existing biases.</h3>
         <button><Link href='/sources'>Sources</Link></button>
     </div>

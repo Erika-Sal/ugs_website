@@ -17,7 +17,7 @@ function page() {
             <h1>Will I be Hired?</h1>
             <h3>Historical hiring data used to train AI systems often reflects past discriminatory practices</h3>
             <h3>Video interviewing software may have difficulties accurately assessing facial expressions and speech patterns of minorities</h3>
-            <h3>AI resume scanners may screen out candidates with "ethnic-sounding" names or non-traditional career paths</h3>
+            <h3>AI resume scanners may screen out candidates with &quot;ethnic-sounding&quot; names or non-traditional career paths</h3>
        </div>
        <div className='sec3'>
             <h1>However, AI can be helpful</h1>
