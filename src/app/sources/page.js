@@ -2,6 +2,8 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import '../styless/sources.css'
+import Image from 'next/image'; // Add this import at the top of the file
+
 
 
 function page() {

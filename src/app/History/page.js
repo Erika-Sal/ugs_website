@@ -2,6 +2,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import '../styless/history.css'
+import Image from 'next/image'; // Add this import at the top of the file
 
 
 
