@@ -2,7 +2,6 @@
 import Image from "next/image";
 import '../styless/Revenue.css'
 import Navbar from '../components/Navbar';
-import Image from 'next/image'; // Add this import at the top of the file
 
 export default function page() {
     return (
