@@ -9,7 +9,7 @@ function page() {
     <div>
         <Navbar />
         <div className='sourcess'>
-         <img src='/sources.png'/>
+         <Image src='/sources.png'/>
         </div>
        
     </div>
