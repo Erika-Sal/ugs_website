@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet');
+
+
+
+.sec1{
+    color:#d2e7fa;
+  line-height:2vmin;
+  font-family: 'Lobster Two';
+  font-size: 5vmin;
+  margin:0;
+  padding:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height:100vh;
+  background-color:#4d7298
+}
+h1{
+    color:#d2e7fa;
+
+}
+
+
+
+
+ 
+  .TopCompanies {
+    font-family: 'Lobster Two';
+    font-size: 25px;
+    display: flex;
+    align-items: left;
+    justify-content:space-evenly;
+    margin-bottom:5vmin;
+  }
+ 
+  .Images {
+    display: flex;
+    padding-left:8vmin;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+
+.text1 h1{
+  color: #4d7298;
+
+
+}
+  .text1 {
+    font-family: 'Oranienbaum';
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 1vmin;
+  }
+
+
+.Rev h1{
+  color: #4d7298;
+}
+
+  .Rev {
+    font-family: 'Oranienbaum';
+    font-weight: bold;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left:3vmin;
+
+
+  }
+ 
+  .text2 h1{
+    color: #4d7298;
+ 
+  }
+    .text2 {
+      font-family: 'Oranienbaum';
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-bottom: 1vmin;
+    }
+
+
+.demIndustry {
+    font-family: 'Lobster Two';
+    font-size: 25px;
+    display: flex;
+    align-items: left;
+    justify-content:space-evenly;
+    margin-bottom:5vmin;
+  }
+
+  .demIndustry h1, .TopCompanies h1{
+    color: #4d7298;
+
+  }
+
+
+  .pieChart {
+    display: flex;
+    padding-left:5vmin;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .artIntel {
+    font-family: 'Lobster Two';
+    font-size: 25px;
+    display: flex;
+    align-items: left;
+    justify-content:space-evenly;
+    margin-bottom:5vmin;
+  }
+ 
+  body{
+    background-color: #d2e7fa;
+  }
+
+
+

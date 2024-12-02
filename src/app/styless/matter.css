@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet');
+body{
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    font-family: "Lobster Two";
+    text-align: center;
+    color: #a06cd5
+}
+
+h3 {
+    font-family: "Oranienbaum";
+    text-align: center;
+    color: #a06cd5
+   
+}
+
+.sec1 {
+    font-size: 5vmin;
+    font-family: "Lobster Two";
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:100vh;
+    background-color:#dac3e8
+}
+
+.sec2, .sec4{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#e7d9f0
+}
+
+h1{
+    font-size:8vmin;
+
+}
+
+h3 {
+    font-size:3vmin;
+}
+
+.sec3 {
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+

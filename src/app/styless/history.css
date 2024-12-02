@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet');
+
+body {
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    font-family: 'Oranienbaum';
+    font-size: 10vmin;
+    text-align: center;
+    color: #fcb75d;
+}
+
+h3{
+    font-family: 'Oranienbaum';
+    font-size: 3vmin;
+    text-align: center;
+    color: #ff8000;
+}
+
+img{
+    max-width:40%;
+    max-height: 30vmin; 
+}
+
+
+.sec1, .sec3{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#fde1bc;
+}
+
+.sec1{
+    height:100vh; 
+}
+
+.sec3{
+    padding-top:10vmin;
+    padding-bottom:4vmin; 
+    line-height:3vmin; 
+}
+
+
+li{
+    color: #ff8000;
+    font-size:2.5vmin; 
+}
+
+
+.sec2{
+    padding-top:10vmin; 
+    background-color: #feebd3;
+    height:260vh; 
+    padding-left:2vmin; 
+    padding-right:2vmin; 
+    
+}
+
+.origins1, .origins3, .origins5{
+    display: flex;
+    margin-top:8vmin; 
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:5vmin; 
+
+}
+
+.origins1 h3, .origins2 h3, .origins3 h3, .origins4 h3, .origins5 h3 {
+
+    margin-right:13vmin; 
+    margin-left:13vmin; 
+}
+
+.origins2, .origins4, .origins6 {
+    margin-top:8vmin; 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
