@@ -50,7 +50,7 @@ function page() {
             </ul>
             <h3>1960s-1970s - Civil Rights Era:</h3>
             <ul>
-                <li>Roy Clay Sr. became one of HP's first Black engineers in 1965 and helped develop their computer division</li>
+                <li>Roy Clay Sr. became one of the first Black engineers at HP in 1965 and helped develop their computer division</li>
                 <li>Jerry Lawson, a Black engineer, created the first video game console with interchangeable cartridges</li>
                 <li>The Civil Rights Act of 1964 opened more opportunities in tech companies</li>
             </ul>
