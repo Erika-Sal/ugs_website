@@ -15,13 +15,13 @@ export default function page() {
       </div>
  
       <div className="Images">
-      <Image
+      <img
           src="https://wallpapers.com/images/hd/microsoft-logo-modern-design-yog3vbpgtu79aasj.png"
           style={{ width: '100px', height: 'auto' }} alt=""/>
-      <Image
+      <img
           src="https://logodownload.org/wp-content/uploads/2013/12/apple-logo-5.png"
           style={{ width: '100px', height: 'auto' } } alt=""/>
-      <Image
+      <img
           src="https://download.logo.wine/logo/Oracle_Corporation/Oracle_Corporation-Logo.wine.png"
           style={{ width: '150px', height: 'auto' }} alt=""/>
 
@@ -56,13 +56,13 @@ export default function page() {
 
 
       <div className="pieChart">
-      <Image
+      <img
         src="https://i.ibb.co/87ZZzrF/microsoft-Finish.png"
         style={{ width: '250px', height: 'auto' }} alt=""/>
-      <Image
+      <img
         src="https://i.ibb.co/L6rCT13/apple-Finish.png"
         style={{ width: '250px', height: 'auto' }} alt=""/>
-      <Image
+      <img
         src="https://i.ibb.co/82LH5dz/oracle-Finish.png"
         style={{ width: '250px', height: 'auto' }} alt=""/>  
       </div>
