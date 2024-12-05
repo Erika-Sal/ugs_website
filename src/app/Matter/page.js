@@ -47,9 +47,29 @@ function page() {
        </div>
        <div className='sec4'>
             <h1>The Importance of the Algorithm</h1>
-            <h3>Algorithms can rapidly scale existing biases to affect millions of people</h3>
-            <h3>Feed into feedback loops that reinforce discriminatory patterns</h3>
-            <h3>Influence public perception and representation</h3>
+            <div className='cards'>
+            <FlipCard 
+               frontImage="/robot.png"
+               frontText="Scaling Biases"
+               backText="Algorithms can amplify biases at an unprecedented scale, impacting millions. For instance, biased hiring systems may unfairly filter out qualified candidates based on factors like gender, ethnicity, or background." 
+               />
+               <FlipCard 
+                    frontImage="/robot.png"
+                    frontText="Feedback Loops"
+                    backText="ALgorithms often reinforce existing discriminatory patterns through feedback loops. For example, biased social media algorithms may repeatedly suggest similar content, amplifying stereotypes." 
+               />
+               <FlipCard 
+                    frontImage="/robot.png"
+                    frontText="Sharing Public Perception"
+                    backText="Algorithms control what people see, shaping public perception and representation. Misrepresentation or exclusion of marginalized groups perpetuates harmful stereotypes and inequities." 
+               />
+            </div>
+     
+       </div>
+       <div className='sec5'>
+          <h1>So What?</h1>
+          <h3>The way we design and use AI has far-reaching consequences. From hiring practices to public perception, algorithms shape the opportunities we receive, the narratives we consume, and the biases we unknowingly reinforce.</h3>
+          <h3>By understanding the potential pitfalls of AI and advocating for more transparent, equitable systems, we can ensure these tools empower rather than exclude. It's up to individuals, companies, and policymakers to hold AI accountable and prioritize fairness in its design and application.</h3>
        </div>
     </div>
   )
