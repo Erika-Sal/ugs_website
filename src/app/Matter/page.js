@@ -69,7 +69,7 @@ function page() {
        <div className='sec5'>
           <h1>So What?</h1>
           <h3>The way we design and use AI has far-reaching consequences. From hiring practices to public perception, algorithms shape the opportunities we receive, the narratives we consume, and the biases we unknowingly reinforce.</h3>
-          <h3>By understanding the potential pitfalls of AI and advocating for more transparent, equitable systems, we can ensure these tools empower rather than exclude. It's up to individuals, companies, and policymakers to hold AI accountable and prioritize fairness in its design and application.</h3>
+          <h3>By understanding the potential pitfalls of AI and advocating for more transparent, equitable systems, we can ensure these tools empower rather than exclude. It is up to individuals, companies, and policymakers to hold AI accountable and prioritize fairness in its design and application.</h3>
        </div>
     </div>
   )
