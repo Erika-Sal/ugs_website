@@ -1,6 +1,7 @@
 'use client'
 import Image from "next/image";
 import '../styless/Revenue.css'
+import CompanySelector from '../components/CompanySelector'
 import Navbar from '../components/Navbar';
 
 export default function page() {
@@ -10,11 +11,12 @@ export default function page() {
       <div className="sec1">
       <h1>-Big Tech-</h1>
     </div>
-      <div className="TopCompanies">
+    <div className="sec2">
+   <div className="TopCompanies">
         <h1>-Top Big Tech Companies Based on Annual Revenue-</h1>
       </div>
- 
-      <div className="Images">
+      <div className="sec2">
+<div className="Images">
       <img
           src="/microsoft.png"
           style={{ width: '100px', height: 'auto' }} alt=""/>
@@ -48,24 +50,12 @@ export default function page() {
       </div>
 
 
-      <div className="text2">
-        <h1>Microsoft</h1>
-        <h1>Apple</h1>
-        <h1>Oracle</h1>
+      <CompanySelector />
       </div>
-
-
-      <div className="pieChart">
-      <img
-        src="/microsoftDems.png"
-        style={{ width: '250px', height: 'auto' }} alt=""/>
-      <img
-        src="/appleDems.png"
-        style={{ width: '250px', height: 'auto' }} alt=""/>
-      <img
-        src="/oracleDems.png"
-        style={{ width: '250px', height: 'auto' }} alt=""/>  
-      </div>
+    </div>
+   
+ 
+      
      </>
      
     );

@@ -56,7 +56,7 @@ function page() {
                <FlipCard 
                     frontImage="/robot.png"
                     frontText="Feedback Loops"
-                    backText="ALgorithms often reinforce existing discriminatory patterns through feedback loops. For example, biased social media algorithms may repeatedly suggest similar content, amplifying stereotypes." 
+                    backText="ALgorithms often reinforce existing discriminatory patterns through feedback loops." 
                />
                <FlipCard 
                     frontImage="/robot.png"
