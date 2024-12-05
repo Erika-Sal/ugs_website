@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Timeline from '../components/Timeline'
 import '../styless/history.css'
 import Image from 'next/image'; // Add this import at the top of the file
 
@@ -42,30 +43,8 @@ function page() {
             </div>
         </div>
         <div className='sec3'>
-            <h1>Minorities in Tech: The Timeline</h1>
-            <h3>1940s-1950s - Early Computing Era:</h3>
-            <ul>
-                <li>During WWII, labor shortages created opportunities for women and minorities in computing</li>
-                <li>Notable pioneers included Dorothy Vaughan, Mary Jackson, and Katherine Johnson at NASA</li>
-            </ul>
-            <h3>1960s-1970s - Civil Rights Era:</h3>
-            <ul>
-                <li>Roy Clay Sr. became one of the first Black engineers at HP in 1965 and helped develop their computer division</li>
-                <li>Jerry Lawson, a Black engineer, created the first video game console with interchangeable cartridges</li>
-                <li>The Civil Rights Act of 1964 opened more opportunities in tech companies</li>
-            </ul>
-            <h3>1980s-1990s - Personal Computer Revolution:</h3>
-            <ul>
-                <li>Rise of computer science programs at Historically Black Colleges and Universities (HBCUs)</li>
-                <li>Formation of organizations like Black Data Processing Associates (BDPA) to support minorities in tech</li>
-                <li>Increased focus on diversity hiring at major tech companies</li>
-            </ul>
-            <h3>2000s-Present:</h3>
-            <ul>
-                <li>Growth of coding bootcamps and alternative education pathways</li>
-                <li>Rise of organizations like Black Girls Code and Hispanic IT Executive Council</li>
-                <li>Increased focus on diversity in Silicon Valley, though representation gaps persist</li>
-            </ul>
+        <Timeline />
+
         </div>
     </div>
   )

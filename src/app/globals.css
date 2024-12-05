@@ -78,6 +78,7 @@ body{
 .navbar{
   font-family: 'Libre Bodoni', cursive;
 
+  z-index: 1000; /* Higher than the default z-index of other elements */
 
 
 
@@ -165,6 +166,9 @@ body{
 
 
 }
+
+
+
 
 
 

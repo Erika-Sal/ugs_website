@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet');
+
+.cardContainer {
+    perspective: 1000px;
+  }
+  
+  .card {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+  }
+  
+  .cardContainer:hover .card {
+    transform: rotateY(180deg);
+  }
+  
+  .front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+  }
+  
+  .front {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .front p, .back p{
+    color: #a06cd5;
+    font-family: "Oranienbaum";
+    font-size: 2.5vmin; 
+    margin-right:1vmin; 
+    margin-left:1vmin; 
+  }
+
+  .front img {
+    max-width:30%;
+    max-height:20vmin; 
+  }
+  
+  .back {
+    background-color: white;
+    transform: rotateY(180deg);
+    text-align: center;
+  }
+  

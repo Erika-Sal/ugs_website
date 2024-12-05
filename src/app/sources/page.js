@@ -11,7 +11,7 @@ function page() {
     <div>
         <Navbar />
         <div className='sourcess'>
-         <img src='/sources.png' alt=""/>
+          <img src='/sources.png' alt=""/>
         </div>
        
     </div>

@@ -20,6 +20,14 @@ h3 {
    
 }
 
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; /* Optional for vertical alignment */
+    gap: 60px; /* Adds spacing between cards */
+    margin: 20px;
+}
+
 .sec1 {
     font-size: 5vmin;
     font-family: "Lobster Two";
@@ -48,15 +56,29 @@ h1{
 }
 
 h3 {
-    font-size:3vmin;
+    font-size:3.5vmin;
 }
 
 .sec3 {
-    height:100vh;
+    height:110vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
+}
+
+
+.sec3-1, .sec3-2, .sec3-3{
+    display: flex;
+    font-size:5vmin; 
+
+}
+
+
+img{
+    max-width:40%;
+    max-height:30vmin; 
 }
 
 
